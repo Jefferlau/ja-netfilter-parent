@@ -1,0 +1,15 @@
+[submodule "ja-netfilter"]
+	path = ja-netfilter
+	url = git@github.com:Jefferlau/ja-netfilter.git
+[submodule "ja-netfilter-sample-plugin"]
+	path = ja-netfilter-sample-plugin
+	url = git@github.com:Jefferlau/ja-netfilter-sample-plugin.git
+[submodule "plugin-hideme"]
+	path = plugin-hideme
+	url = git@github.com:Jefferlau/plugin-hideme.git
+[submodule "plugin-url"]
+	path = plugin-url
+	url = git@github.com:Jefferlau/plugin-url.git
+[submodule "plugin-dns"]
+	path = plugin-dns
+	url = git@github.com:Jefferlau/plugin-dns.git
