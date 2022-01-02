@@ -13,3 +13,9 @@
 [submodule "plugin-dns"]
 	path = plugin-dns
 	url = git@github.com:Jefferlau/plugin-dns.git
+[submodule "ja-netfilter-mymap-plugin"]
+	path = ja-netfilter-mymap-plugin
+	url = git@github.com:Jefferlau/ja-netfilter-mymap-plugin.git
+[submodule "plugin-power"]
+	path = plugin-power
+	url = git@github.com:Jefferlau/plugin-power.git

@@ -28,7 +28,7 @@
     <dependency>
       <groupId>com.ja-netfilter</groupId>
       <artifactId>ja-netfilter</artifactId>
-      <version>2.0.0</version>
+      <version>2.0.1</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -95,11 +95,11 @@
 
                 <copy todir="${basedir}/../release/plugins" overwrite="true">
                   <fileset dir="${basedir}/target" includes="*with-dependencies.jar"
-                           excludes="mymap-${version}.jar"/>
+                           excludes="mymap-${project.version}.jar"/>
                 </copy>
 
-                <move file="${basedir}/../release/plugins/mymap-${version}-jar-with-dependencies.jar"
-                      tofile="${basedir}/../release/plugins/mymap-${version}.jar"/>
+                <move file="${basedir}/../release/plugins/mymap-${project.version}-jar-with-dependencies.jar"
+                      tofile="${basedir}/../release/plugins/mymap-${project.version}.jar"/>
               </target>
             </configuration>
           </execution>
